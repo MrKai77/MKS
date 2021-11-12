@@ -6,17 +6,12 @@ This is a fork of [MKS](https://github.com/x0054/MKS), which is a app that added
 
 ### Brew
 
-1. Install [brew](https://brew.sh/).
-1. Run:
-
-        $ brew cask install mks
-
-1. Grant Accessibility permissions (see below).
+This fork is currently unavailable on Brew yet. Brew installation support is planned though!
 
 ### Manual
 
-1. Download the [MKS.dmg](https://github.com/x0054/MKS/releases/latest) from the releases tab above.
-1. Open the MKS.dmg and drag MKS app to the Application folder on your dock.
+1. Download the [MKS.zip](https://github.com/MrKai77/MKS/releases/latest) from the releases tab above.
+1. Open the MKS.zip and drag MKS app to the Application folder in Finder.
 1. Grant Accessibility permissions (see below).
 
 ### Grant Accessibility permissions
