@@ -20,9 +20,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     // Player Arrays and Sound Profiles    
     var profile: Int = 0
     
-    let soundFiles: [[Int: (String, String)]] = [[0: ("profile-1-normal-down", "profile-1-normal-up"),
-                                                  1: ("profile-1-large-down", "profile-1-large-up"),
-                                                  2: ("profile-1-large-down", "profile-1-large-up")]]
+    let soundFiles: [[Int: (String, String)]] = [[0: ("holy-panda-down", "holy-panda-up"),
+                                                  1: ("holy-panda-large-down", "holy-panda-large-up"),
+                                                  2: ("holy-panda-large-down", "holy-panda-large-up")]]
     
     var players: [Int: ([AVAudioPlayer?], [AVAudioPlayer?])] = [:]
     var playersCurrentPlayer: [Int: (Int, Int)] = [:]
