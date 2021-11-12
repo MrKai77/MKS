@@ -35,7 +35,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var modKeysMuted:Bool = false
     
     var keyUpSound = true
-    
+   
     // Other Variables
     var menuItem:NSStatusItem? = nil
     
@@ -429,7 +429,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     @objc func menuProfile2(){
-        profileSet(profile: 2)  
+        profileSet(profile: 2)
     }
     
     @objc func menuAbout(){
