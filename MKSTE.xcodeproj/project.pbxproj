@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		43EDED8B2140E57000FF0FC2 /* MKS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43EDED8B2140E57000FF0FC2 /* MKSTE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKSTE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43EDED8E2140E57000FF0FC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43EDED902140E57000FF0FC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43EDED932140E57000FF0FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		43EDED8C2140E57000FF0FC2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				43EDED8B2140E57000FF0FC2 /* MKS.app */,
+				43EDED8B2140E57000FF0FC2 /* MKSTE.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		43EDED8A2140E57000FF0FC2 /* MKS */ = {
+		43EDED8A2140E57000FF0FC2 /* MKSTE */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43EDED982140E57000FF0FC2 /* Build configuration list for PBXNativeTarget "MKS" */;
+			buildConfigurationList = 43EDED982140E57000FF0FC2 /* Build configuration list for PBXNativeTarget "MKSTE" */;
 			buildPhases = (
 				43EDED872140E57000FF0FC2 /* Sources */,
 				43EDED882140E57000FF0FC2 /* Frameworks */,
@@ -107,9 +107,9 @@
 			);
 			dependencies = (
 			);
-			name = MKS;
+			name = MKSTE;
 			productName = MechKey;
-			productReference = 43EDED8B2140E57000FF0FC2 /* MKS.app */;
+			productReference = 43EDED8B2140E57000FF0FC2 /* MKSTE.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,7 +129,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 43EDED862140E57000FF0FC2 /* Build configuration list for PBXProject "MKS" */;
+			buildConfigurationList = 43EDED862140E57000FF0FC2 /* Build configuration list for PBXProject "MKSTE" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -142,7 +142,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				43EDED8A2140E57000FF0FC2 /* MKS */,
+				43EDED8A2140E57000FF0FC2 /* MKSTE */,
 			);
 		};
 /* End PBXProject section */
@@ -309,8 +309,8 @@
 				INFOPLIST_FILE = "$(SRCROOT)/MKS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MARKETING_VERSION = 2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.KaiAzim.MKS;
-				PRODUCT_NAME = MKS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KaiAzim.MKSTE;
+				PRODUCT_NAME = MKSTE;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
@@ -328,8 +328,8 @@
 				INFOPLIST_FILE = "$(SRCROOT)/MKS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MARKETING_VERSION = 2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.KaiAzim.MKS;
-				PRODUCT_NAME = MKS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KaiAzim.MKSTE;
+				PRODUCT_NAME = MKSTE;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
@@ -338,7 +338,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		43EDED862140E57000FF0FC2 /* Build configuration list for PBXProject "MKS" */ = {
+		43EDED862140E57000FF0FC2 /* Build configuration list for PBXProject "MKSTE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43EDED962140E57000FF0FC2 /* Debug */,
@@ -347,7 +347,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43EDED982140E57000FF0FC2 /* Build configuration list for PBXNativeTarget "MKS" */ = {
+		43EDED982140E57000FF0FC2 /* Build configuration list for PBXNativeTarget "MKSTE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43EDED992140E57000FF0FC2 /* Debug */,

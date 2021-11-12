@@ -374,7 +374,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     let menuItemVolume75 = NSMenuItem(title: "75% Volume", action: #selector(menuSetVol3), keyEquivalent: "")
     let menuItemVolume100 = NSMenuItem(title: "100% Volume", action: #selector(menuSetVol4), keyEquivalent: "")
     
-    let menuItemAbout = NSMenuItem(title: "About MKS", action: #selector(menuAbout), keyEquivalent: "")
+    let menuItemAbout = NSMenuItem(title: "About MKSTE", action: #selector(menuAbout), keyEquivalent: "")
     let menuItemQuit = NSMenuItem(title: "Quit", action: #selector(menuQuit), keyEquivalent: "")
     
     func menuCreate(){
@@ -443,7 +443,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     @objc func menuAbout(){
-        NSWorkspace.shared.open(NSURL(string: "http://www.zynath.com/MKS")! as URL)
+        NSWorkspace.shared.open(NSURL(string: "https://github.com/MrKai77/MKSTE")! as URL)
     }
     
     @objc func menuQuit(){
@@ -551,8 +551,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         if !accessEnabled {
             let alert = NSAlert()
-            alert.messageText = "MKS Needs Permissions"
-            alert.informativeText = "macOS is awesome at protecting your privacy! However, as a result, in order for MKS to work, you will need to add it to the list of apps that are allowed to control your computer. That's the only way MKS can know when you press a key to play that sweet mechanical keyboard sound :) To add MKS to the list of trusted apps do the following: \n\nOpen System Preferences > Security & Privacy > Privacy > Accessibility, click on the Padlock in the bottom lefthand corner, and drag the MKS app into the list. \n\nHitting OK will close MKS. After you have done this, restart the app."
+            alert.messageText = "MKSTE Needs Permissions"
+            alert.informativeText = "MKSTE needs accessibility permissions. To do this, do the following: \n\nOpen System Preferences > Security & Privacy > Privacy > Accessibility, click on the Padlock in the bottom lefthand corner, and drag the MKS app into the list. \n\nHitting OK will close MKS. After you have done this, restart the app."
             alert.runModal()
             NSApp.terminate(nil)
         }
