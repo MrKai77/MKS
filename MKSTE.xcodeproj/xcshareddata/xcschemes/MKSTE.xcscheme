@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "43EDED8A2140E57000FF0FC2"
-               BuildableName = "MKS.app"
+               BuildableName = "MKSTE.app"
                BlueprintName = "MKSTE"
                ReferencedContainer = "container:MKSTE.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "43EDED8A2140E57000FF0FC2"
-            BuildableName = "MKS.app"
+            BuildableName = "MKSTE.app"
             BlueprintName = "MKSTE"
             ReferencedContainer = "container:MKSTE.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "43EDED8A2140E57000FF0FC2"
-            BuildableName = "MKS.app"
+            BuildableName = "MKSTE.app"
             BlueprintName = "MKSTE"
             ReferencedContainer = "container:MKSTE.xcodeproj">
          </BuildableReference>
