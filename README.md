@@ -1,6 +1,6 @@
 # MKS: Mechanical Keyboard Simulator
 
-This is a fork of [MKS](https://github.com/x0054/MKS), which is a app that added Cherry MX Blue sound effects when typing on a keyboard. However, like some of you, I prefer thoccy keyboard sounds, which is why I made this fork. It replaces all the profilss with one NK Cream switch sound, and removes all the other not-needed featured, such as the mouse clicks.
+This is a fork of [MKS](https://github.com/x0054/MKS), which is a app that added Cherry MX Blue sound effects when typing on your keyboard. However, like some of you, I prefer thoccy keyboard sounds, which is why I made this fork. It replaces all the profiles with one NK Cream switch sound, and removes all the other not-needed featured, such as the mouse clicks.
 
 ## Installation
 
