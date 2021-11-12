@@ -46,7 +46,7 @@
 		43EDED822140E57000FF0FC2 = {
 			isa = PBXGroup;
 			children = (
-				43EDED8D2140E57000FF0FC2 /* MKS */,
+				43EDED8D2140E57000FF0FC2 /* MKSTE */,
 				43EDED8C2140E57000FF0FC2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,7 +59,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		43EDED8D2140E57000FF0FC2 /* MKS */ = {
+		43EDED8D2140E57000FF0FC2 /* MKSTE */ = {
 			isa = PBXGroup;
 			children = (
 				43EDEDAA214317EF00FF0FC2 /* Images */,
@@ -70,7 +70,7 @@
 				A80EB56D273EE3B000F33407 /* README.md */,
 				43EDED952140E57000FF0FC2 /* Info.plist */,
 			);
-			path = MKS;
+			path = MKSTE;
 			sourceTree = "<group>";
 		};
 		43EDEDAA214317EF00FF0FC2 /* Images */ = {
@@ -306,7 +306,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/MKS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MKSTE/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.KaiAzim.MKSTE;
@@ -325,7 +325,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/MKS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MKSTE/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.KaiAzim.MKSTE;
