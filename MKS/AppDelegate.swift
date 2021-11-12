@@ -3,7 +3,7 @@
 //  MechKey
 //
 //  Created by Bogdan Ryabyshchuk on 9/5/18.
-//  Copyright © 2018 Bogdan Ryabyshchuk. All rights reserved.
+//  Copyright © 2021 Kai Azim. All rights reserved.
 //
 
 import Cocoa
@@ -78,7 +78,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     // MARK: Mouse Functions
     var mousePrevDown: NSDate = NSDate()
     var mousePrevUp: NSDate = NSDate()
-    
     
     // MARK: Key Functions
     // Key Press Function for Normal Keys
