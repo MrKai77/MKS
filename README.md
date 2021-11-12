@@ -6,7 +6,7 @@ This is a fork of [MKS](https://github.com/x0054/MKS), which is a app that added
 
 ### Brew
 
-This fork is currently unavailable on Brew yet. Brew installation support is planned though!
+This fork is currently unavailable on Brew. Brew installation support is planned though!
 
 ### Manual
 
