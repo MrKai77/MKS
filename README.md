@@ -1,4 +1,4 @@
-<img align="left" width="50" height="50" src="https://github.com/MrKai77/MKSTE/blob/master/MKSTE/Assets.xcassets/AppIcon.appiconset/MKSTE-icon-1024.png" alt="MKSTE icon">
+<img align="left" width="80" height="80" src="https://github.com/MrKai77/MKSTE/blob/master/MKSTE/Assets.xcassets/AppIcon.appiconset/MKSTE-icon-1024.png" alt="MKSTE icon">
 
 # MKSTE
 > Mechanical Keyboard Simulator: Thoccy Edition  
