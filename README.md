@@ -3,7 +3,7 @@
 # MKSTE
 > Mechanical Keyboard Simulator: Thoccy Edition  
 
-This is a fork of [MKS](https://github.com/x0054/MKS), which is a app that added Cherry MX Blue sound effects when typing on your keyboard. However, like some of you, I prefer thoccy keyboard sounds, which is why I made this fork. It replaces all the profiles with NK Cream switch sounds, and removes all the other not-needed features, such as the mouse clicks.
+This is a fork of [MKS](https://github.com/x0054/MKS), which is a app that added Cherry MX Blue sound effects when typing on your keyboard. However, like some of you, I prefer thoccy keyboard sounds, which is why I made this fork. It replaces all the profiles with NK Cream switch sounds, and removes all the other unneeded features, such as the mouse clicks.
 
 ## Installation
 
