@@ -337,10 +337,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                 if self.keyRandomize {
                     // Randomize Pitch
                     player.enableRate = true
-                    player.rate = Float.random(in: 1.0 ... 1.1 )
+                    player.rate = Float.random(in: 1.0 ... 1.05)
                     
                     // Randomize Volume
-                    player.volume = self.volumeLevel * Float.random(in: 0.95 ... 1.0 )
+                    player.volume = self.volumeLevel * Float.random(in: 0.8 ... 1.0 )
                 }
                 player.pan = keyLocation
                 player.play()
