@@ -20,9 +20,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     // Player Arrays and Sound Profiles    
     var profile: Int = 0
     
-    let soundFiles: [[Int: (String, String)]] = [[0: ("cream-large-down", "cream-large-up"),   // normal
-                                                  1: ("cream-large-down", "cream-large-up"),
-                                                  2: ("cream-large-down", "cream-large-up")]]
+    let soundFiles: [[Int: (String, String)]] = [[0: ("cream-down", "cream-up"),   // normal
+                                                  1: ("cream-down", "cream-up"),
+                                                  2: ("cream-down", "cream-up")]]
     
     var players: [Int: ([AVAudioPlayer?], [AVAudioPlayer?])] = [:]
     var playersCurrentPlayer: [Int: (Int, Int)] = [:]
@@ -337,7 +337,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                 if self.keyRandomize {
                     // Randomize Pitch
                     player.enableRate = true
-                    player.rate = Float.random(in: 1.0 ... 1.2 )
+                    player.rate = Float.random(in: 1.0 ... 1.1 )
                     
                     // Randomize Volume
                     player.volume = self.volumeLevel * Float.random(in: 0.95 ... 1.0 )
