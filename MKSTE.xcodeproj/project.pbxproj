@@ -11,10 +11,8 @@
 		43EDED912140E57000FF0FC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43EDED902140E57000FF0FC2 /* Assets.xcassets */; };
 		43EDED942140E57000FF0FC2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43EDED922140E57000FF0FC2 /* MainMenu.xib */; };
 		43EDEDB6214321D700FF0FC2 /* sysmenuicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 43EDEDB5214321D700FF0FC2 /* sysmenuicon.png */; };
-		A80EB569273EE11800F33407 /* cream-normal-down.wav in Resources */ = {isa = PBXBuildFile; fileRef = A80EB565273EE11800F33407 /* cream-normal-down.wav */; };
-		A80EB56A273EE11800F33407 /* cream-large-down.wav in Resources */ = {isa = PBXBuildFile; fileRef = A80EB566273EE11800F33407 /* cream-large-down.wav */; };
-		A80EB56B273EE11800F33407 /* cream-normal-up.wav in Resources */ = {isa = PBXBuildFile; fileRef = A80EB567273EE11800F33407 /* cream-normal-up.wav */; };
-		A80EB56C273EE11800F33407 /* cream-large-up.wav in Resources */ = {isa = PBXBuildFile; fileRef = A80EB568273EE11800F33407 /* cream-large-up.wav */; };
+		A80C624B275C2CCD001928BB /* cream-down.wav in Resources */ = {isa = PBXBuildFile; fileRef = A80C6249275C2CCD001928BB /* cream-down.wav */; };
+		A80C624C275C2CCD001928BB /* cream-up.wav in Resources */ = {isa = PBXBuildFile; fileRef = A80C624A275C2CCD001928BB /* cream-up.wav */; };
 		A80EB56E273EE3B000F33407 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A80EB56D273EE3B000F33407 /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -25,10 +23,8 @@
 		43EDED932140E57000FF0FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		43EDED952140E57000FF0FC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43EDEDB5214321D700FF0FC2 /* sysmenuicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sysmenuicon.png; path = AppIcon.appiconset/sysmenuicon.png; sourceTree = "<group>"; };
-		A80EB565273EE11800F33407 /* cream-normal-down.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "cream-normal-down.wav"; sourceTree = "<group>"; };
-		A80EB566273EE11800F33407 /* cream-large-down.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "cream-large-down.wav"; sourceTree = "<group>"; };
-		A80EB567273EE11800F33407 /* cream-normal-up.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "cream-normal-up.wav"; sourceTree = "<group>"; };
-		A80EB568273EE11800F33407 /* cream-large-up.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "cream-large-up.wav"; sourceTree = "<group>"; };
+		A80C6249275C2CCD001928BB /* cream-down.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "cream-down.wav"; sourceTree = "<group>"; };
+		A80C624A275C2CCD001928BB /* cream-up.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "cream-up.wav"; sourceTree = "<group>"; };
 		A80EB56D273EE3B000F33407 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -84,10 +80,8 @@
 		A80EB564273EE11800F33407 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				A80EB565273EE11800F33407 /* cream-normal-down.wav */,
-				A80EB566273EE11800F33407 /* cream-large-down.wav */,
-				A80EB567273EE11800F33407 /* cream-normal-up.wav */,
-				A80EB568273EE11800F33407 /* cream-large-up.wav */,
+				A80C6249275C2CCD001928BB /* cream-down.wav */,
+				A80C624A275C2CCD001928BB /* cream-up.wav */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -152,14 +146,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A80EB569273EE11800F33407 /* cream-normal-down.wav in Resources */,
 				43EDEDB6214321D700FF0FC2 /* sysmenuicon.png in Resources */,
 				43EDED912140E57000FF0FC2 /* Assets.xcassets in Resources */,
-				A80EB56C273EE11800F33407 /* cream-large-up.wav in Resources */,
-				A80EB56B273EE11800F33407 /* cream-normal-up.wav in Resources */,
-				A80EB56A273EE11800F33407 /* cream-large-down.wav in Resources */,
+				A80C624C275C2CCD001928BB /* cream-up.wav in Resources */,
 				A80EB56E273EE3B000F33407 /* README.md in Resources */,
 				43EDED942140E57000FF0FC2 /* MainMenu.xib in Resources */,
+				A80C624B275C2CCD001928BB /* cream-down.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
