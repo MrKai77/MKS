@@ -40,7 +40,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var menuItem:NSStatusItem? = nil
     
     
-    var keyRandomize = true
+//    var keyRandomize = true
     
     // Debugging Messages
     var debugging = false
@@ -51,7 +51,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         volumeLoad()
         profileLoad()
         volumeUpdate()
-        keyRandomizeLoad()
         // Create the Menu
         menuCreate()
         
@@ -334,14 +333,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         func play(player: AVAudioPlayer, keyLocation: Float){
             if !player.isPlaying {
-                if self.keyRandomize {
-                    // Randomize Pitch
-                    player.enableRate = true
-                    player.rate = Float.random(in: 1.0 ... 1.05)
-                    
-                    // Randomize Volume
-                    player.volume = self.volumeLevel * Float.random(in: 0.8 ... 1.0 )
-                }
+                // Randomize Pitch
+                player.enableRate = true
+                player.rate = Float.random(in: 1.0 ... 1.05)
+                
+                // Randomize Volume
+                player.volume = self.volumeLevel * Float.random(in: 0.8 ... 1.0 )
+                
                 player.pan = keyLocation
                 player.play()
             }
@@ -529,14 +527,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         self.players = [:]
         self.playersCurrentPlayer = [:]
         loadSounds()
-    }
-
-    // MARK: Randomize Sound Setting
-
-    func keyRandomizeLoad() {
-        if UserDefaults.standard.object(forKey: "keyRandomize") != nil {
-            self.keyRandomize = UserDefaults.standard.bool(forKey: "keyRandomize")
-        }
     }
     
     // MARK: Permissions Request
