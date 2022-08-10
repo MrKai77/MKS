@@ -33,12 +33,12 @@
 		43F0C4CD261A159E008C1D1D /* profile-3-large-down.wav in Resources */ = {isa = PBXBuildFile; fileRef = 43F0C4B7261A159E008C1D1D /* profile-3-large-down.wav */; };
 		43F0C4CE261A159E008C1D1D /* profile-3-large-up.wav in Resources */ = {isa = PBXBuildFile; fileRef = 43F0C4B8261A159E008C1D1D /* profile-3-large-up.wav */; };
 		43F0C4CF261A159E008C1D1D /* profile-3-mouse-down.wav in Resources */ = {isa = PBXBuildFile; fileRef = 43F0C4B9261A159E008C1D1D /* profile-3-mouse-down.wav */; };
-		A852C69828A44858009A4DBA /* profile-4-normal-up.wav in Resources */ = {isa = PBXBuildFile; fileRef = A852C69228A44858009A4DBA /* profile-4-normal-up.wav */; };
-		A852C69928A44858009A4DBA /* profile-4-large-up.wav in Resources */ = {isa = PBXBuildFile; fileRef = A852C69328A44858009A4DBA /* profile-4-large-up.wav */; };
-		A852C69A28A44858009A4DBA /* profile-4-enter-down.wav in Resources */ = {isa = PBXBuildFile; fileRef = A852C69428A44858009A4DBA /* profile-4-enter-down.wav */; };
-		A852C69B28A44858009A4DBA /* profile-4-enter-up.wav in Resources */ = {isa = PBXBuildFile; fileRef = A852C69528A44858009A4DBA /* profile-4-enter-up.wav */; };
-		A852C69C28A44858009A4DBA /* profile-4-normal-down.wav in Resources */ = {isa = PBXBuildFile; fileRef = A852C69628A44858009A4DBA /* profile-4-normal-down.wav */; };
-		A852C69D28A44858009A4DBA /* profile-4-large-down.wav in Resources */ = {isa = PBXBuildFile; fileRef = A852C69728A44858009A4DBA /* profile-4-large-down.wav */; };
+		A858C76828A44E84002E00EF /* profile-4-enter-up.wav in Resources */ = {isa = PBXBuildFile; fileRef = A858C76228A44E84002E00EF /* profile-4-enter-up.wav */; };
+		A858C76928A44E84002E00EF /* profile-4-enter-down.wav in Resources */ = {isa = PBXBuildFile; fileRef = A858C76328A44E84002E00EF /* profile-4-enter-down.wav */; };
+		A858C76A28A44E84002E00EF /* profile-4-normal-down.wav in Resources */ = {isa = PBXBuildFile; fileRef = A858C76428A44E84002E00EF /* profile-4-normal-down.wav */; };
+		A858C76B28A44E84002E00EF /* profile-4-large-down.wav in Resources */ = {isa = PBXBuildFile; fileRef = A858C76528A44E84002E00EF /* profile-4-large-down.wav */; };
+		A858C76C28A44E84002E00EF /* profile-4-large-up.wav in Resources */ = {isa = PBXBuildFile; fileRef = A858C76628A44E84002E00EF /* profile-4-large-up.wav */; };
+		A858C76D28A44E84002E00EF /* profile-4-normal-up.wav in Resources */ = {isa = PBXBuildFile; fileRef = A858C76728A44E84002E00EF /* profile-4-normal-up.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,12 +70,12 @@
 		43F0C4B7261A159E008C1D1D /* profile-3-large-down.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "profile-3-large-down.wav"; path = "Sounds/profile-3-large-down.wav"; sourceTree = "<group>"; };
 		43F0C4B8261A159E008C1D1D /* profile-3-large-up.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "profile-3-large-up.wav"; path = "Sounds/profile-3-large-up.wav"; sourceTree = "<group>"; };
 		43F0C4B9261A159E008C1D1D /* profile-3-mouse-down.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "profile-3-mouse-down.wav"; path = "Sounds/profile-3-mouse-down.wav"; sourceTree = "<group>"; };
-		A852C69228A44858009A4DBA /* profile-4-normal-up.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "profile-4-normal-up.wav"; sourceTree = "<group>"; };
-		A852C69328A44858009A4DBA /* profile-4-large-up.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "profile-4-large-up.wav"; sourceTree = "<group>"; };
-		A852C69428A44858009A4DBA /* profile-4-enter-down.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "profile-4-enter-down.wav"; sourceTree = "<group>"; };
-		A852C69528A44858009A4DBA /* profile-4-enter-up.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "profile-4-enter-up.wav"; sourceTree = "<group>"; };
-		A852C69628A44858009A4DBA /* profile-4-normal-down.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "profile-4-normal-down.wav"; sourceTree = "<group>"; };
-		A852C69728A44858009A4DBA /* profile-4-large-down.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "profile-4-large-down.wav"; sourceTree = "<group>"; };
+		A858C76228A44E84002E00EF /* profile-4-enter-up.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "profile-4-enter-up.wav"; path = "Sounds/profile-4-enter-up.wav"; sourceTree = "<group>"; };
+		A858C76328A44E84002E00EF /* profile-4-enter-down.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "profile-4-enter-down.wav"; path = "Sounds/profile-4-enter-down.wav"; sourceTree = "<group>"; };
+		A858C76428A44E84002E00EF /* profile-4-normal-down.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "profile-4-normal-down.wav"; path = "Sounds/profile-4-normal-down.wav"; sourceTree = "<group>"; };
+		A858C76528A44E84002E00EF /* profile-4-large-down.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "profile-4-large-down.wav"; path = "Sounds/profile-4-large-down.wav"; sourceTree = "<group>"; };
+		A858C76628A44E84002E00EF /* profile-4-large-up.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "profile-4-large-up.wav"; path = "Sounds/profile-4-large-up.wav"; sourceTree = "<group>"; };
+		A858C76728A44E84002E00EF /* profile-4-normal-up.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "profile-4-normal-up.wav"; path = "Sounds/profile-4-normal-up.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,12 +143,12 @@
 				43F0C4A9261A159D008C1D1D /* profile-3-mouse-up.wav */,
 				43F0C4B1261A159D008C1D1D /* profile-3-normal-down.wav */,
 				43F0C4AB261A159D008C1D1D /* profile-3-normal-up.wav */,
-				A852C69428A44858009A4DBA /* profile-4-enter-down.wav */,
-				A852C69528A44858009A4DBA /* profile-4-enter-up.wav */,
-				A852C69728A44858009A4DBA /* profile-4-large-down.wav */,
-				A852C69328A44858009A4DBA /* profile-4-large-up.wav */,
-				A852C69628A44858009A4DBA /* profile-4-normal-down.wav */,
-				A852C69228A44858009A4DBA /* profile-4-normal-up.wav */,
+				A858C76328A44E84002E00EF /* profile-4-enter-down.wav */,
+				A858C76228A44E84002E00EF /* profile-4-enter-up.wav */,
+				A858C76528A44E84002E00EF /* profile-4-large-down.wav */,
+				A858C76628A44E84002E00EF /* profile-4-large-up.wav */,
+				A858C76428A44E84002E00EF /* profile-4-normal-down.wav */,
+				A858C76728A44E84002E00EF /* profile-4-normal-up.wav */,
 			);
 			name = Sounds;
 			sourceTree = "<group>";
@@ -222,35 +222,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				43F0C4BF261A159E008C1D1D /* profile-3-mouse-up.wav in Resources */,
-				A852C69828A44858009A4DBA /* profile-4-normal-up.wav in Resources */,
 				43F0C4C8261A159E008C1D1D /* profile-1-mouse-up.wav in Resources */,
 				43F0C4BE261A159E008C1D1D /* profile-2-normal-down.wav in Resources */,
+				A858C76828A44E84002E00EF /* profile-4-enter-up.wav in Resources */,
 				43F0C4BC261A159E008C1D1D /* profile-1-large-down.wav in Resources */,
-				A852C69D28A44858009A4DBA /* profile-4-large-down.wav in Resources */,
-				A852C69B28A44858009A4DBA /* profile-4-enter-up.wav in Resources */,
+				A858C76B28A44E84002E00EF /* profile-4-large-down.wav in Resources */,
 				43F0C4C2261A159E008C1D1D /* profile-2-mouse-down.wav in Resources */,
 				43EDEDB6214321D700FF0FC2 /* sysmenuicon.png in Resources */,
-				A852C69928A44858009A4DBA /* profile-4-large-up.wav in Resources */,
 				43F0C4C6261A159E008C1D1D /* profile-3-enter-down.wav in Resources */,
 				43F0C4CB261A159E008C1D1D /* profile-1-normal-up.wav in Resources */,
 				43F0C4CD261A159E008C1D1D /* profile-3-large-down.wav in Resources */,
 				43F0C4C3261A159E008C1D1D /* profile-2-large-up.wav in Resources */,
 				43F0C4BB261A159E008C1D1D /* profile-2-enter-down.wav in Resources */,
-				A852C69C28A44858009A4DBA /* profile-4-normal-down.wav in Resources */,
 				43F0C4C5261A159E008C1D1D /* profile-2-normal-up.wav in Resources */,
 				43EDED912140E57000FF0FC2 /* Assets.xcassets in Resources */,
 				43F0C4C1261A159E008C1D1D /* profile-3-normal-up.wav in Resources */,
 				43F0C4CC261A159E008C1D1D /* profile-1-normal-down.wav in Resources */,
 				43EDED942140E57000FF0FC2 /* MainMenu.xib in Resources */,
+				A858C76928A44E84002E00EF /* profile-4-enter-down.wav in Resources */,
+				A858C76A28A44E84002E00EF /* profile-4-normal-down.wav in Resources */,
 				43F0C4C4261A159E008C1D1D /* profile-2-mouse-up.wav in Resources */,
 				43F0C4BD261A159E008C1D1D /* profile-2-large-down.wav in Resources */,
 				43F0C4CF261A159E008C1D1D /* profile-3-mouse-down.wav in Resources */,
 				43F0C4CA261A159E008C1D1D /* profile-2-enter-up.wav in Resources */,
+				A858C76D28A44E84002E00EF /* profile-4-normal-up.wav in Resources */,
 				43F0C4C9261A159E008C1D1D /* profile-1-mouse-down.wav in Resources */,
 				43F0C4C0261A159E008C1D1D /* profile-3-enter-up.wav in Resources */,
 				43F0C4CE261A159E008C1D1D /* profile-3-large-up.wav in Resources */,
 				43F0C4BA261A159E008C1D1D /* profile-1-large-up.wav in Resources */,
-				A852C69A28A44858009A4DBA /* profile-4-enter-down.wav in Resources */,
+				A858C76C28A44E84002E00EF /* profile-4-large-up.wav in Resources */,
 				43F0C4C7261A159E008C1D1D /* profile-3-normal-down.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
