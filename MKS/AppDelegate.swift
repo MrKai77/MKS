@@ -31,6 +31,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                                                  [0: ("profile-3-normal-down", "profile-3-normal-up"),
                                                   1: ("profile-3-large-down", "profile-3-large-up"),
                                                   2: ("profile-3-enter-down", "profile-3-enter-up"),
+                                                  3: ("profile-3-mouse-down", "profile-3-mouse-up")],
+                                                 [0: ("profile-4-normal-down", "profile-4-normal-up"),
+                                                  1: ("profile-4-large-down", "profile-4-large-up"),
+                                                  2: ("profile-4-enter-down", "profile-4-enter-up"),
                                                   3: ("profile-3-mouse-down", "profile-3-mouse-up")]]
     
     var players: [Int: ([AVAudioPlayer?], [AVAudioPlayer?])] = [:]
@@ -227,7 +231,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Grab the Current Mod Key Mask
         let bitmask = event.modifierFlags.rawValue
         
-        // Key Maps for the Keys
+        // Key Maps for the Keys (Good source: https://eastmanreference.com/img/complete-list-of-applescript-key-codes-t.png)
         let modKeysCodes: [String: Int] = ["keyShiftRight":  60,
                                            "keyShiftLeft":   57,
                                            "keyAltLeft":     58,
@@ -462,6 +466,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     let menuItemProfile0 = NSMenuItem(title: "Profile 1", action: #selector(menuProfile0), keyEquivalent: "")
     let menuItemProfile1 = NSMenuItem(title: "Profile 2", action: #selector(menuProfile1), keyEquivalent: "")
     let menuItemProfile2 = NSMenuItem(title: "Profile 3", action: #selector(menuProfile2), keyEquivalent: "")
+    let menuItemProfile3 = NSMenuItem(title: "Profile 4", action: #selector(menuProfile3), keyEquivalent: "")
     
     let menuItemMouseEffectsOn = NSMenuItem(title: "Mouse Effects On", action: #selector(menuMouseEffectsOn), keyEquivalent: "")
     let menuItemMouseEffectsOff = NSMenuItem(title: "Mouse Effects Off", action: #selector(menuMouseEffectsOff), keyEquivalent: "")
@@ -507,6 +512,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         menu.addItem(self.menuItemProfile0)
         menu.addItem(self.menuItemProfile1)
         menu.addItem(self.menuItemProfile2)
+        menu.addItem(self.menuItemProfile3)
         menu.addItem(NSMenuItem.separator())
         menu.addItem(self.menuItemMouseEffectsOn)
         menu.addItem(self.menuItemMouseEffectsOff)
@@ -583,6 +589,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     @objc func menuProfile2(){
         profileSet(profile: 2)
+    }
+    
+    @objc func menuProfile3(){
+        profileSet(profile: 3)
     }
     
     @objc func menuMouseEffectsOn(){
@@ -818,6 +828,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         self.menuItemProfile0.state = NSControl.StateValue.off
         self.menuItemProfile1.state = NSControl.StateValue.off
         self.menuItemProfile2.state = NSControl.StateValue.off
+        self.menuItemProfile3.state = NSControl.StateValue.off
         
         if self.profile == 0 {
             self.menuItemProfile0.state = NSControl.StateValue.on
@@ -825,6 +836,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             self.menuItemProfile1.state = NSControl.StateValue.on
         } else if self.profile == 2 {
             self.menuItemProfile2.state = NSControl.StateValue.on
+        } else if self.profile == 3 {
+            self.menuItemProfile3.state = NSControl.StateValue.on
         }
     }
     
